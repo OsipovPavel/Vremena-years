@@ -1,0 +1,43 @@
+.Winter {
+    list-style-image: url(/tables/icons/winter_16.png);
+}
+
+.Spring {
+list-style-image: url(/tables/icons/spring_16.png);
+}
+
+.Summer {
+list-style-image: url(/tables/icons/summer_16.png);
+}
+
+.Autumn {
+list-style-image: url(/tables/icons/autumn_16.png);
+}
+
+#year {
+    list-style-type: none;
+}
+#year li::before {
+    content: ">";
+} 
+
+.Spring li {
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+}
+
+/* .Spring {
+    padding: 0%;
+} */
+
+#year .Winter li::before,
+#year .Spring li::before,
+#year .Summer li::before,
+#year .Autumn li::before {
+    content:"";
+}
+
+h1 {
+    font-size: 20px;
+}
